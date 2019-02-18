@@ -1,0 +1,28 @@
+.navbar{
+    background-color:#0095ff; 
+}
+.navbar-brand,a{
+    color:#e6f9ff;
+}
+ul{
+    list-style-type:none;
+    display: inline-block;
+}
+li{
+    padding: 10px 2px 0px 15px;
+    display: inline;
+}
+li a:hover{
+    padding: 20px 10px 22px 10px;
+}
+li a:hover:active{
+    background-color: rgba(36, 116, 216, 0.952);
+    color: white;
+}
+li a:hover:not(.active){
+    background-color: rgba(36, 116, 255, 0.952);
+    color:white;
+}
+.nav-link{
+    text-decoration:none;
+}
